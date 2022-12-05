@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rock Paper Scissors</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <section>
+    <div class="wrapper">
+      <h2>Rock Paper Scissors</h2>
+      <p>Choose your option</p>
+      <div class="elements">
+        <div class="rock">
+          <img src="rock.png" alt="Rock">
+          <input type="radio" name="option" data-select="rock">
+          <label>Rock</label>
+        </div>
+        <div class="paper">
+          <img src="paper.png" alt="Paper">
+          <input type="radio" name="option" data-select="paper">
+          <label>Paper</label>
+        </div>
+        <div class="scissors">
+          <img src="scissors.png" alt="Scissors">
+          <input type="radio" name="option" data-select="scissors">
+          <label>Scissors</label>
+        </div>
+      </div>
+      <button>Play</button>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrapper">
+      <div class="result">
+        <div class="user-result">
+          <p>User choice: <span></span></p>
+        </div>
+        <div class="computer-result">
+          <p>Computer choice: <span></span></p>
+        </div>
+        <div class="game-result">
+          <p>Game result: <span></span></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrapper">
+      <div class="stat">
+        <p>Game statistics:</p>
+        <div class="game-number">
+          <p>Number of games: <span></span></p>
+        </div>
+        <div class="game-win">
+          <p>Number of wins: <span></span></p>
+        </div>
+        <div class="game-lose">
+          <p>Number of lost: <span></span></p>
+        </div>
+        <div class="game-draw">
+          <p>Number of draws: <span></span></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script src="app.js"></script>
+
+</body>
+
+</html>
